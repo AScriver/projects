@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: url(images/noisy_net_@2X.png);
+    background-size: auto;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height 70px;
+    background: #1d2837;
+    padding: 0;
+    border-bottom: 1px solid #66757F;
+}
+
+#nav-container {
+    width: 960px;
+    margin: auto;
+    height: 92px;
+    overflow: hidden;
+}
+
+.my-name {
+    float: left;
+    color: #FFFFFF;
+    background-color: #55ACEE;
+    height: 92px;
+}
+
+li {
+    display: inline-block;
+    float: left;
+}
+
+h1 {
+    padding: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+ul {
+    list-style-type: none;
+    height: 92px;
+    overflow: visible;
+    background-color: transparent;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 64px;
+    /* I have no idea why setting
+    line-height to 64px makes the links the same size as the entire top bar, but this was the only way I found that could do it. */
+}
+
+li a:hover:not(.active) {
+    background-color: #66757F;
+}
+
+.active {
+    background-color: #55ACEE;
+}
+
+#body-container {
+    padding: 0;
+    margin: 40px auto;
+    background: #161f2b;
+    max-width: 960px;
+    border: 1px solid #66757F;
+    color: #FFFFFF;
+    height: 700px;
+
+}
+
+.body-header {
+    margin: 34px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #55ACEE;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*********************************************************/
+/* putting a lone foward-slash here raises the image text by 20px for some reason */
+
+/* Start portfolio content styling */
+img {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.p-desc {
+    width: 200px;
+    background-color: #66757F;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height: 250px;
+    float: left;
+    margin-left: 13px;
+    margin-right: 13px;
+    position: relative;
+    left: 30px;
+}
+
+.desc-container {
+    text-align: center;
+    margin-top: -25px;
+}
+
+/* End portfolio content styling */
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 79px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #1d2837;
+    color: #FFFFFF;
+    border-top: 2px solid #55ACEE;
+}
+
