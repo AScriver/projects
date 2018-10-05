@@ -1,0 +1,178 @@
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('fonts/pokemon_gb-webfont.eot');
+	src: url('fonts/pokemon_gb-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/pokemon_gb-webfont.woff') format('woff'),
+	     url('fonts/pokemon_gb-webfont.ttf') format('truetype'),
+	     url('fonts/pokemon_gb-webfont.svg#webfont') format('svg');
+}
+
+body {
+    background: url(images/bg.jpg);
+}
+
+#placeholders{
+    letter-spacing: 9px;
+    font-size: 16px;
+}
+
+#guessedLetters {
+    letter-spacing: -6px;
+}
+.screen-main {
+    min-height: 267.33px;
+    min-width: 300.33px;
+    max-height: 267.33px;
+    max-width: 300.33px;
+    top: 40px;
+    background: url(images/ZlDAY0E.jpeg)
+}
+.screen-border {
+    background: dimgrey;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 75px;
+    min-height: 351px;
+    min-width: 463px;
+    max-height: 351px;
+    max-width: 463px;
+}
+
+.case {
+    background-color: #F0EAD6;
+    padding-top: 1px;
+    top: 0px;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 900px;
+    min-width: 543.66px;
+    max-height: 900px;
+    max-width: 543.66px;
+
+}
+
+.text-black {
+    color: black;
+    font-family: 'MyWebFont';
+    font-size: 16px;
+}
+
+.h2-resize {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.cust-button-a {
+    background: rgb(184,24,31);
+    box-shadow: 1px 2px 4px rgba(0,0,01, .5);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100%;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+}
+
+.cust-button-b {
+    background: rgb(184,24,31);
+    box-shadow: 1px 2px 4px rgba(0,0,0, .5);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 100%;
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    height: 50px;
+    width: 50px;
+}
+
+.arrow-ns {
+    background-color: rgb(17,17,31);
+    width: 40px;
+    height: 120px;
+    border-radius: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: -90px;
+    box-shadow: 1px 2px 4px rgba(0,0,0, .5);
+}
+
+.arrow-ew {
+    background-color: rgb(17,17,31);
+    width: 120px;
+    height: 40px;
+    border-radius: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 140px;
+    left: -130px;
+    box-shadow: 1px 2px 4px rgba(0,0,0, .5);
+}
+.hangman-logo {
+    font-family: 'Monoton', cursive;
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: -130px;
+    
+}
+
+#rainbow {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.start {
+    background: dimgrey;
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 350px;
+}
+
+.select {
+    background: dimgrey;
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 350px;
+    right: 30px;
+    box-shadow: 1px 2px 4px rgba(0,0,0, .5);
+}
+
+.power {
+    height: 10px;
+    width: 10px;
+    background: rgb(184,24,31);
+    border-radius: 100%;
+    position: absolute;
+    top: -240px;
+    left: -105px
+}
