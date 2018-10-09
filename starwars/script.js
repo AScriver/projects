@@ -162,7 +162,6 @@ $(document).ready(function () {
                     enemies.push(characters[key]);
                 }
             }
-            console.log(enemies);
             $("#characters-container").hide();
             createChar(userPlayer, "#user-character");
             createChar(enemies, "#choose-opponent");
