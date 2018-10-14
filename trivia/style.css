@@ -1,0 +1,108 @@
+/**/
+
+body {
+    background: linear-gradient(to top right, #f14298,rgb(95,222,175));
+}
+
+.sidebar {
+    background: rgba(255,255,255,0.5);
+    height: 100vh;
+    padding: 0;
+    
+}
+
+.sidebar-header {
+    border-bottom: 4px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/****************** LIST EFFECT ******************/
+ul {                                            
+    list-style: none;                           
+    text-align: center;                         
+    margin-left: 0;
+    display: inline;
+    padding: 0;
+}
+
+li:hover {
+    transition: .5s background;
+    transition-timing-function: ease-out;
+}
+
+
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 3s background;
+}
+
+li.r:hover {
+    background: #F14298;
+}
+
+li.o:hover {
+    background: #DA599B;
+}
+
+li.y:hover {
+    background: #C3709E;
+}
+
+li.g:hover {
+    background: #AC88A1;
+}
+
+li.b:hover {
+    background: #949FA4;
+}
+
+li.i:hover {
+    background: #7DB6A7;
+}
+
+li.v:hover {
+    background: #66CDAA;
+}
+
+/******************             ******************/
+
+
+
+.main-question-container {
+    background: rgba(255,255,255,0.5);
+    border-radius: 15px;
+}
+
+.q-header{
+    border-bottom: 4px solid black;
+}
+
+.button-start {
+    padding: 4vh
+}
+
+#start {
+    background: linear-gradient(to bottom right, #f14298,rgb(95,222,175));
+    border: none;
+}
+
+.btn-answer {
+    background: linear-gradient(to bottom right, #f14298,rgb(95,222,175));
+    border: none;
+    display: inline-block;
+    width: 100%;
+    height: 10vh;
+}
+
+#reset {
+    background: linear-gradient(to bottom right, #f14298,rgb(95,222,175));
+    border: none;
+    display: inline-block;
+    width: 10%;
+    height: 4vh;
+    margin-bottom: 2vh;
+}
