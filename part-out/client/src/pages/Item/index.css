@@ -1,0 +1,30 @@
+.item-container {
+    background: white;
+    padding: 1em;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
+}
+
+
+.post-title {
+    color: black;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.tags {
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+}
+
+/* 
+.item-imgcontainer {
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
+}
+
+.item-tagscontainer {
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
+} */
