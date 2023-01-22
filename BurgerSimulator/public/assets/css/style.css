@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: dimgrey;
+  padding-top: 5%;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.li {
+  margin-left: 0;
+  padding-left: 0;
+  background: lightgray;
+  height: 40px;
+}
+
+.main {
+  background: white;
+  border-radius: 10px;
+}
+
+.addBurger {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}

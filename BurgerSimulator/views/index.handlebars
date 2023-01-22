@@ -1,0 +1,44 @@
+<div class="row">
+  <div class='col text-center'>
+    <h1>BURGER SIMULATOR!</h1>
+    <hr>
+  </div>
+</div>
+<div class="row">
+  <div class='undevoured col-6'>
+    <h2 class='text-center'>Burgers that have not been devoured!</h2>
+    <div class='ul'>
+      {{#each burgers}}
+      {{#unless devoured}}
+      {{> burgers/burger-block devoured=true}}
+      {{/unless}}
+      {{/each}}
+    </div>
+  </div>
+  <div class='devoured col-6'>
+    <h2 class='text-center'>Burgers that have been devoured!</h2>
+
+    <div class='ul'>
+      {{#each burgers}}
+      {{#if devoured}}
+      {{> burgers/burger-block-dev devoured=false}}
+      <!-- The partials are represented by the '>' -->
+      {{/if}}
+      {{/each}}
+    </div>
+  </div>
+</div>
+<div class='row addBurger'>
+  <div class='col text-center'>
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+
+      <div class="form-group">
+        <label for="ca"></label>
+        <input type="text" id="ca" name="name">
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-md">Add Burger</button>
+    </form>
+  </div>
+</div>
